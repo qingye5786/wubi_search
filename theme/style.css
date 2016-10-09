@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background:url(img/bg.png);
+}
+
+#wrap {
+	width:606px;
+	height:319px;
+	padding:20px;
+	margin:150px auto;
+	text-align:center;
+	background:url(img/dbg.png) no-repeat;
+}
+
+#wrap h3 {
+	margin-top:40px;
+}
+
+#wrap .search {
+	margin:40px 0;
+}
+
+#wrap .search .te {
+	height:30px;
+	width:254px;
+	border:none;
+	padding-left:22px;
+	background:url(img/te.png) no-repeat;
+}
+
+#wrap .search .bu {
+	width:64px;
+	height:30px;
+	border:0;
+	cursor:pointer;
+	background:url(img/bu.png) no-repeat;
+}
+
+#wrap  table {
+	margin:40px auto;
+	border:1px solid #093052;
+}
+
+#wrap td {
+	text-align:center;
+	border:1px solid #093052;
+}
+
+#footer {
+	width:430px;
+	margin:-60px auto;
+}
+
+#footer a {
+	color:#AAC4C8;
+}
